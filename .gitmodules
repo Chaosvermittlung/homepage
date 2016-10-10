@@ -1,0 +1,3 @@
+[submodule "themes/hugo-chaosvermittlung-theme"]
+	path = themes/hugo-chaosvermittlung-theme
+	url = git@github.com:Chaosvermittlung/hugo-chaosvermittlung-theme.git

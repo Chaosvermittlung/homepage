@@ -1,0 +1,100 @@
+baseurl = "https://www.chaosvermittlung.de/"
+languageCode = "de-de"
+title = "Chaosvermittlung"
+theme = "hugo-chaosvermittlung-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Chaosvermittlung"
+	description = "Die Chaosvermittlung ist ein Hackerspace übergreifendes Projekt das ein Feldtelefonnetz auf Chaos Veranstaltungen bereitstellt"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Chaosvermittlung"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Technik von gestern für das Funklock von heute"
+		subtitle   = "Ein Telefonnetz welches sogar die Matecalypse übersteht"
+		buttonText = "Bitte vermitteln Sie"
+
+
+	# About section
+	[params.about]
+		headline    = "Wer sind wird?"
+		description = "Die Chaosvermittlung versteht sich als Hackerspace übergreifendes Projekt, welches alter Feldtelefon Technik neues Leben einhauchen will und damit ein Kommunikationsnetz auf Veranstaltungen des CCCs und artverwandten Organisationen bereitstellt. Mehr Informationen auch im [Wiki](https://wiki.chaosvermittlung.de)"
+		buttonText  = "In Kontakt treten"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-globe"
+            title = "Hackspace übergreifend"
+            description = "Das Projekt steht Intressierten aus der ganzen Welt offen um mit zumachen."
+
+        [[params.services.list]]
+			icon = "fa-battery-full"
+			title = "Stromunabhängig"
+			description = "Durch Batterien in allen Endgeräten, sowie in den Vermittlungsstellen, sind wir von externer Stromzufuhr unabhängig"
+
+		[[params.services.list]]
+            icon = "fa-envelope"
+            title = "Sidechannel"
+            description = "Das Projekt Sidechannel stellt den Kommunikationskanal zur Seidenstraße bereit."
+
+        [[params.services.list]]
+            icon = "fa-mobile "
+            title = "GSM und DECT kompatibel"
+            description = "Durch Amtszusätze an unseren Vermittlungen, können Gespräche in das DECT und GSM Netz vermittelt und daraus angenommen werden"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Intresse geweckt?"
+		description = "Intresse geweckt? Wollt ihr mitmachen oder uns auf einem Event haben? Dann kontaktiert uns einfach!"
+		phone = "09672-8131788"
+		email = "info@chaosvermittlung.de"
