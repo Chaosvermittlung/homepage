@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chaosvermittlung</title>
-    <link>https://www.chaosvermittlung.de/</link>
+    <link>https://www.chaosvermittlung.de/index.xml</link>
     <description>Recent content on Chaosvermittlung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
