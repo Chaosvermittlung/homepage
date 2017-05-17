@@ -40,7 +40,7 @@ theme = "hugo-chaosvermittlung-theme"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Technik von gestern für das Funklock von heute"
+		slogan     = "Technik von gestern für das Funkloch von heute"
 		subtitle   = "Ein Telefonnetz welches sogar die Matecalypse übersteht"
 		buttonText = "Bitte vermitteln Sie"
 
