@@ -94,7 +94,7 @@ theme = "hugo-chaosvermittlung-theme"
 
 	# Contact section
 	[params.contact]
-		headline = "Intresse geweckt?"
-		description = "Intresse geweckt? Wollt ihr mitmachen oder uns auf einem Event haben? Dann kontaktiert uns einfach!"
+		headline = "Interesse geweckt?"
+		description = "Interesse geweckt? Wollt ihr mitmachen oder uns auf einem Event haben? Dann kontaktiert uns einfach!"
 		phone = "09672-8131788"
 		email = "info@chaosvermittlung.de"
